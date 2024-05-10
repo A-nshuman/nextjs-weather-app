@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 0.2s ease;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #202020;
+  user-select: none;
+}
+
+.cityInput:focus+.searchButton {
+  background-color: #9bdbde;
+  color: #2b2b2b;
+  /* filter: drop-shadow(-2px 0 2px #2b2b2b); */
+}
+
+.max-min-para span{
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+.weather {
+  scrollbar-width: thin;
+  scrollbar-color: #718096 transparent;
+}
