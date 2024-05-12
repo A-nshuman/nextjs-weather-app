@@ -2,9 +2,9 @@
 import './globals.css'
 import Head from "next/head";
 
-import Navbar from "@/components/Navbar";
-import Container from "@/components/Container";
-import WeatherIcon from "@/components/WeatherIcon";
+import Navbar from "../components/Navbar";
+import Container from "../components/Container";
+import WeatherIcon from "../components/WeatherIcon";
 
 import axios from "axios";
 import { useQuery } from 'react-query'
@@ -18,9 +18,9 @@ import { FiWind } from "react-icons/fi";
 import { SlSpeedometer } from "react-icons/sl";
 import { TbDroplet } from "react-icons/tb";
 
-import { getDayOrNight } from "@/utils/getDayOrNight";
-import { convertKelvinToCelsius } from "@/utils/convertKelvin";
-import { placeAtom, loadingCityAtom } from "@/app/atom";
+import { getDayOrNight } from "../utils/getDayOrNight";
+import { convertKelvinToCelsius } from "../utils/convertKelvin";
+import { placeAtom, loadingCityAtom } from "./atom";
 import { useAtom } from 'jotai';
 import { useEffect } from 'react';
 

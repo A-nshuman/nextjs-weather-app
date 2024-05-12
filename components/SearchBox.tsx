@@ -1,7 +1,7 @@
 import React from "react";
 
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
-import { cn } from "@/utils/cn";
+import { cn } from "../utils/cn";
 
 type Props = {
     className?: string;

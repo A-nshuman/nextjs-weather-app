@@ -9,7 +9,7 @@ import { FaLocationCrosshairs } from "react-icons/fa6";
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import { WiLightning } from "react-icons/wi";
 import axios from "axios";
-import { placeAtom, loadingCityAtom } from "@/app/atom";
+import { placeAtom, loadingCityAtom } from "../app/atom";
 import { useAtom } from "jotai";
 
 type Props = { location: string };
