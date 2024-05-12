@@ -1,5 +1,5 @@
 'use client';
-import './globals.css'
+import '../styles/globals.css'
 import Head from "next/head";
 
 import Navbar from "../components/Navbar";
